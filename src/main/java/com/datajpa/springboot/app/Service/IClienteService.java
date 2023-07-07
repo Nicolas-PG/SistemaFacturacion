@@ -1,6 +1,7 @@
 package com.datajpa.springboot.app.Service;
 
 import com.datajpa.springboot.app.Entity.Cliente;
+import com.datajpa.springboot.app.Entity.Factura;
 import com.datajpa.springboot.app.Entity.Producto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -14,6 +15,8 @@ public interface IClienteService {
     public void save(Cliente cliente);
     public Cliente findOne(Long id);
     public void delete(Long id);
-
     public List<Producto> findByNombre(String term);
+    public void saveFactura(Factura factura);
+
+    public Producto findProductoById(Long id);
 }

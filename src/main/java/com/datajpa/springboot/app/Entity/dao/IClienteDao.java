@@ -1,5 +1,6 @@
-package com.datajpa.springboot.app.Entity;
+package com.datajpa.springboot.app.Entity.dao;
 
+import com.datajpa.springboot.app.Entity.Cliente;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 

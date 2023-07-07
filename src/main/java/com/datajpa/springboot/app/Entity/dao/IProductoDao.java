@@ -1,6 +1,7 @@
-package com.datajpa.springboot.app.Entity;
+package com.datajpa.springboot.app.Entity.dao;
 
 
+import com.datajpa.springboot.app.Entity.Producto;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

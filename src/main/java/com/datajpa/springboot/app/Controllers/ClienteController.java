@@ -1,7 +1,6 @@
 package com.datajpa.springboot.app.Controllers;
 
 import com.datajpa.springboot.app.Entity.Cliente;
-import com.datajpa.springboot.app.Entity.IClienteDao;
 import com.datajpa.springboot.app.Service.IClienteService;
 import com.datajpa.springboot.app.Util.PageRender;
 import jakarta.validation.Valid;
