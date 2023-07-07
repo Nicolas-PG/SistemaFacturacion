@@ -42,9 +42,16 @@
 
 					$("#cargarItemProductos tbody").append(linea);
 					itemsHelper.calcularImporte(ui.item.value, ui.item.precio, 1);
+
 					return false;
 				}
 			});
+
+			$("form").submit(function(){
+				$("#plantillaItemsFactura").remove();
+				return;
+			});
+
 		});
 
 		var itemsHelper = {
